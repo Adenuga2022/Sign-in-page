@@ -1,0 +1,169 @@
+*{
+    color: white;
+}
+body{
+    background-image: url(images/sign-bg.jpg);
+    background-size: 100vw 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+#body{
+    background-color: rgba(0, 0, 0, 0.291);
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+    margin:auto;
+    padding-top: 2%;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    padding: 5px 15px;
+    font-size: 1.3em;
+}
+li:hover{
+    background-color: rgba(255, 255, 255, 0.103);
+}
+#lipimg{
+    transform: rotateZ(-40deg);
+}
+#key{
+    font-size: 3em;
+    padding: 10px;
+}
+main{
+    margin: auto;
+    margin-top: 5em;
+    max-width: 350px;
+}
+#center-div{
+    text-align: center;
+}
+.user-img{
+    padding: 20px 10px 0px 20px;
+}
+.user-img>img{
+    margin-bottom: -3px;
+    transform: scale(0.9);
+    max-width: 20px;
+}
+#user-div{
+    margin-top: 50px;
+}
+.input-div{
+    background-color: rgba(228, 186, 186, 0.704);
+    border-radius: 30px;
+}
+.user-input{
+    height: 55px;
+    background-color: transparent;
+    border: 0;
+    font-size: large;
+    color: black;
+}
+#pass-div{
+    margin: 20px 0;
+}
+#submit{
+    height: 50px;
+    background-color: rgb(251, 99, 99);
+    border: 0;
+    font-size: 1em;
+    max-width: 350px;
+    width: 100%;
+    border-radius: 30px;
+    padding: 0;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+#submit:hover{
+    cursor: pointer;
+}
+#label:hover{
+    cursor: pointer;
+}
+.line1{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+.line2{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    padding: 2px;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+    margin: auto;
+    padding: 3.75% 0;
+}
+footer{
+    font-size: large;
+}
+.foot-div > a{
+    padding: 15px;
+}
+::placeholder{
+    color: rgba(0, 0, 0, 0.811);
+}
+.user-input:focus{
+    outline: none;
+}
+
+/* Media Queries */
+@media screen and (max-width:923px) {
+    footer{
+        display: block;
+        text-align: center;
+    }
+    footer > div {
+        padding: 1.7% 0;
+    }
+    #key{
+        font-size: 2em;
+        padding: 5px 0px;
+    }
+    #lipimg{
+        width:10px;
+        height:27px;
+    }
+    #name{
+        padding-top: 2%;
+    }
+}
+
+@media screen and (max-width:665px){
+    li{
+        padding: 5px 10px;
+        font-size: 1.2em;
+    }
+    #lipimg{
+        transform: rotate(0);
+    }
+}
+
+@media screen and (max-width:428px){
+    body{
+        background-size: 500px 100%;
+        width: max-content;
+        /* height: 100vh; */
+    }
+    /* main{
+        width: 500px;
+    } */
+}
