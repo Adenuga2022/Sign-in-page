@@ -124,6 +124,10 @@ footer{
 .user-input:focus{
     outline: none;
 }
+#signature{
+    color: blue;
+    font-weight: 800;
+}
 
 /* Media Queries */
 @media screen and (max-width:923px) {
